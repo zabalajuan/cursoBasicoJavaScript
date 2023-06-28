@@ -9,9 +9,8 @@ miNombre = "Roman";
 console.log(miNombre2)
 var miNombre2 = "Juan Roman";
 
-//hoisting funtionces
-
-
+//hoisting funciones, la funcion si se puede llamar, no hay hoisting
+// pero con la variable si no se puede
 var miNombre = undefined;
 hey();
 
