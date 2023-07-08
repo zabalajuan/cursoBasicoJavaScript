@@ -11,7 +11,7 @@ if(true){
 //la condicion debe ser verdadera para que se ejecute
 if(true){
     console.log("Hola");
-} else if () {
+} else if (true) {
     console.log("false")
 } else {
     console.log("false final")
