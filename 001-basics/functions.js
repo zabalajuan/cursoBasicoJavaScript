@@ -1,11 +1,11 @@
-//declarativad
+//declarativad - Functions declarations are hoisted - cargan y se pueden llamar
 
 function miFuncion(){
     return 3;
 }
 
 
-//Expresion
+//Expresion - Function expressions are not hoisted, no se pueden llamar sin ser declaradas
 var miFuncion = function(a,b){
     return a + b;
 }
